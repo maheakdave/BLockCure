@@ -5,7 +5,7 @@ require('dotenv').config();
 const bodyparser = require('body-parser');
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/BlockCure');
+mongoose.connect(process.env.URI);
 app = express();
 const PORT = process.env.PORT;
 
