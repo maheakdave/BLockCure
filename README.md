@@ -6,3 +6,18 @@ BlockCure is an healthcare platform for hospitals to share personal healthcare i
 
 It was desiged and developed by team TIUCSE for the [Anonymiser Hackathon](https://anonymiser.wb.gov.in/).<br> 
 The system was originally developed using java and python.
+
+Get started by cloning the repository.
+To run the system first install all the required libraries by typing in the following commands in your terminal:
+  - Initialise node project: `npm init`
+  - To install node modules use:  `npm install` and install the packages mentioned in the package.json file.
+  - To install python packages:  `pip install -r requirements.txt`
+
+To run the javascript server, simply type: `npm start`
+
+To run the python server, simply type: `cd deidentifier_api && uvicorn main:app --reload` 
+
+***Note*** :
+ - Avoid using virtual environments to install your python package since one of the packages used is not compatible with virtual environment.
+ - Usage of bash terminal to the python server is recommended since uvicorn cannot run in powershell or command prompt without a virtual environment.
+
