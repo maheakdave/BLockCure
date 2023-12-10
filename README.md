@@ -19,5 +19,5 @@ To run the python server, simply type: `cd deidentifier_api && uvicorn main:app 
 
 ***Note*** :
  - Avoid using virtual environments to install your python package since one of the packages used is not compatible with virtual environment.
- - Usage of bash terminal to the python server is recommended since uvicorn cannot run in powershell or command prompt without a virtual environment.
+ - Usage of bash terminal to run the python server is recommended since uvicorn cannot run in powershell or command prompt without a virtual environment.
 
