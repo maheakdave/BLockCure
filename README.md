@@ -12,7 +12,7 @@ Get started by cloning the repository.
 To run the system first install all the required libraries by typing in the following commands in your terminal:
   - Initialise node project: `npm init`
   - To install node modules use:  `npm install` and install the packages mentioned in the package.json file.
-  - To install python packages:  `pip install -r requirements.txt`
+  - To install python packages:  `pip install -r requirement.txt`
 
 To run the javascript server, simply type: `npm start`
 
